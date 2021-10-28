@@ -1,0 +1,60 @@
+<h4>Cargar Departamentos</h4>
+<div class="carga">
+    <input type="button" name="" id="" value="Carga Masiva" (click)="cambiarEstado()">
+</div>
+<form class="form-group">
+ <input type="text" name="codigo" id="" placeholder="Codigo">
+ <input type="text" name="descripcion" id="" placeholder="Descripcion">
+ <input type="button" name="" id="" value="Agregar" >
+
+</form>
+
+<table >
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Descripcion</th>
+            <th></th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>Codigo 1</td>
+            <td>
+               Descripcion 1
+            </td>
+            <td>
+                <mat-icon class="center-self">delete</mat-icon>
+                <mat-icon class="center-self">content_copy</mat-icon>
+            </td>   
+        </tr>  
+
+        <tr>
+            <td>Codigo 2</td>
+            <td>
+               Descripcion 2
+            </td>
+            <td>
+                <mat-icon class="center-self">delete</mat-icon>
+                <mat-icon class="center-self">content_copy</mat-icon>            </td>   
+        </tr>              
+  
+
+
+    </tbody>
+</table>
+<button>Next</button>
+
+
+<article id="modal" [ngClass]='{abrir:status,cerrar:!status}'>
+    <div class="close">
+        <mat-icon class="center-self"  (click)="cambiarEstado()">close</mat-icon>
+    </div>
+    <form action="" class="form-modal">
+        <input type="file" name="fileCarga" id="">
+        <input type="button" value="Descargar Template">
+        <input type="button" value="Cancel">
+        <input type="button" value="Aplicar Archivo">
+    </form>
+</article>

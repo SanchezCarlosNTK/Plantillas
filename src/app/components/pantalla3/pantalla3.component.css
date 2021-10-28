@@ -1,0 +1,51 @@
+:host{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+form{
+    width: 45%;
+    height: 23em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+ 
+    
+}
+.form-group{
+    display: flex;
+    flex-direction: row;
+    width: 57%;
+    margin: 10px 0;
+    justify-content: space-between;
+ 
+    
+    
+}
+
+.form-group > input{
+    min-height: 1.5em;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+}
+button{
+    align-self: flex-end;
+    margin: 0px 10px 10px 0px;
+    border-radius: 8px;
+    background-color: rgb(24, 147, 230);
+    color: #fff;
+    border: none;
+    min-width: 7em;
+    margin-top: auto;
+}
+.form-group > label{
+    
+  width: 90px;
+    text-align: right;
+    left: 0;
+
+} 

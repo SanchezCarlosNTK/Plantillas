@@ -1,0 +1,27 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+li{
+    padding: 10px;
+    list-style: none;
+}
+.formularios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-width: 100%;
+    overflow: hidden;
+    
+}
+.hijo{
+    min-width: 100%;
+}
+button{
+    position:absolute;
+    top: 90%;
+    left: 50%;
+}
+

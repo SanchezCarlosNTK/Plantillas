@@ -1,0 +1,49 @@
+:host{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+form{
+    width: 45%;
+    height: 24em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+    
+}
+.form-group{
+    display: flex;
+    flex-direction: row;
+    width: 68%;
+    margin: 6px 0px;
+    justify-content: space-between;
+}
+
+.form-group > input{
+    min-height: 2em;
+}
+button{
+    align-self: flex-end;
+    margin: 0px 10px 10px 0px;
+    border-radius: 8px;
+    background-color: rgb(24, 147, 230);
+    color: #fff;
+    border: none;
+    min-width: 7em;
+    margin-top: auto;
+}
+input[type="radio"] {
+    width: 50px;
+    background-color: black;
+
+}
+.form-group > label{
+    
+  width: 120px;
+    text-align: right;
+} 

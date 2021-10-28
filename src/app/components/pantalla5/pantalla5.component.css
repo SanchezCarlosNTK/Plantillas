@@ -1,0 +1,33 @@
+.container-1{
+width: 100%;
+height: 40vh;
+
+
+}
+.container-1 > article{
+    width: 50%;
+    border: solid 1px;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: relative;
+    left: 30px;
+}
+.container-1 > article > label{
+   display: inline-block;
+}
+.container-2{
+    width: 100%;
+    height: 40vh;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.container-2 > .tipo-personal{
+border: black solid;
+
+}

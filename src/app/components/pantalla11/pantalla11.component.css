@@ -1,0 +1,71 @@
+:host{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+table{border-collapse:collapse;}
+
+th,tr,td{
+	border:1px solid #000;
+	width:150px;
+	height:45px;
+	vertical-align:middle;
+	text-align:center;
+}
+button{
+    position: relative;
+    left: 15%;
+    top: 3em;
+}
+
+.carga{
+    position: relative;
+    left: 11.5%;
+}
+.form-group{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    width: 100%;
+    justify-content: center;
+
+}
+.form-group > input{
+    margin: 0px 11px;
+}
+
+/*Modal*/
+#modal{
+   
+    position: fixed;
+    width:50%;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+}
+.form-modal > input[type="file"]{
+display: block;
+position: relative;
+left: 26%;
+margin-top: 15px;
+}
+.form-modal > input[type="button"]{
+    display: inline-block;
+    margin: 15px 10px;
+    }
+.close{
+    position: relative;
+    
+    height: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    
+}    
+/*Cerrar modal*/
+.cerrar{
+    display: none;
+}
+.abrir{
+    display: block;
+}
